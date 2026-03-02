@@ -1,0 +1,31 @@
+.spinner{
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {transform: rotate(0deg);}
+    100%    {transform :rotate(360deg)}
+}
+
+.country-card{
+    background-color: aliceblue;
+    padding-left:0%;
+    padding-right:0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+
+}
+
+.border-grid{
+    display:grid;
+
+}
+
+.error{
+    color: orange;
+
+}
+
+.hidden{
+    display:none;
+}
