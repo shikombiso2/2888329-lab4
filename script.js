@@ -60,7 +60,7 @@ async function searchCountry(country) {
         }
 
     } catch (error) {
-        error_msg.textContent = "❌ Country not found! Please check the spelling and try again.";
+        error_msg.textContent = "Country not found! Re-enter the country";
         error_msg.classList.remove("hidden");
         console.error(error);
     } finally {
