@@ -4,7 +4,7 @@ const country_info = document.getElementById("country-info");
 const borderContainer = document.getElementById("bordering-countries");
 const error_msg = document.getElementById("error-message");
 const load_spinner = document.getElementById("loading-spinner");
-
+//comment
 
 search_btn.addEventListener("click", () => {
     const country = country_input.value.trim();
